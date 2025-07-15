@@ -1,6 +1,6 @@
 
 
-# 🧠 YOLOv8-Gradio-Detector
+# 🧠 YOLOv11-Gradio-Detector
 
 A simple, interactive object detection application using the YOLOv11 model powered by [Ultralytics](https://github.com/ultralytics/ultralytics), with support for both Google Colab execution and a local Gradio web interface.
 
