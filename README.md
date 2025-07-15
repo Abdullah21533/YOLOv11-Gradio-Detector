@@ -2,7 +2,7 @@
 
 # 🧠 YOLOv8-Gradio-Detector
 
-A simple, interactive object detection application using the YOLOv8 model powered by [Ultralytics](https://github.com/ultralytics/ultralytics), with support for both Google Colab execution and a local Gradio web interface.
+A simple, interactive object detection application using the YOLOv11 model powered by [Ultralytics](https://github.com/ultralytics/ultralytics), with support for both Google Colab execution and a local Gradio web interface.
 
 This project enables users to:
 - Upload any image (.jpg, .png) and detect objects in real-time.
@@ -13,7 +13,7 @@ This project enables users to:
 
 ## 🔧 Features
 
-✅ YOLOv8 inference (custom or pre-trained `.pt` models)  
+✅ YOLOv11 inference (custom or pre-trained `.pt` models)  
 ✅ Clean Gradio interface for real-time detection  
 ✅ Google Colab compatibility for online testing  
 ✅ Automatic visualization and result saving  
@@ -24,8 +24,8 @@ This project enables users to:
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/YOLOv8-Gradio-Detector.git
-cd YOLOv8-Gradio-Detector
+git clone https://github.com/your-username/YOLOv11-Gradio-Detector.git
+cd YOLOv11-Gradio-Detector
 2. Install Required Packages
 
 pip install -r requirements.txt
@@ -33,7 +33,7 @@ Or install manually:
 
 
 pip install ultralytics opencv-python gradio ipywidgets nest_asyncio
-3. Place Your YOLOv8 Model
+3. Place Your YOLOv11 Model
 Save your trained model file (e.g., best.pt) in the root directory.
 Update the path in app.py or detect_image.ipynb if needed.
 
@@ -41,7 +41,7 @@ Update the path in app.py or detect_image.ipynb if needed.
 Option A: Google Colab (No installation required)
 Open the detect_image.ipynb notebook in Google Colab
 
-Upload your YOLOv8 model and image
+Upload your YOLOv11 model and image
 
 Run all cells and see detection results instantly
 
@@ -62,7 +62,7 @@ Optionally exit with "Exit" button
 
 ### 📁 File Structure
 
-YOLOv8-Gradio-Detector/
+YOLOv11-Gradio-Detector/
 ├── app.py                # Gradio-based app
 ├── detect_image.ipynb    # Google Colab detection script
 ├── requirements.txt      # Required packages
@@ -81,7 +81,7 @@ Pull requests and feature suggestions are welcome!
 If you find a bug or have a feature request, open an issue.
 
 ### ✨ Acknowledgments
-Ultralytics YOLOv8
+Ultralytics YOLOv11
 
 Gradio
 
